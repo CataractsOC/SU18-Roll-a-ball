@@ -1,0 +1,49 @@
+Date:	05-31-2018
+Course:	04:547:415:C6
+Prof:	Bill Crosbie (bcrosbie@comminfo.rutgers.edu)
+Topic:	Game Design - Beginning and Finishing Roll-a-Ball
+
+===GitHub Workflow===
+
+- GitHub
+    - Class Repo
+        - Fork class project repos to own repository.
+    - Personal Repo
+        - Clone the project to your local machine from your own repository.        
+    - Local Machine
+        - Work on the project, make changes to files, etc.
+        - Add the altered files to the staging area.
+        - Commit the changes.
+        - Push the staged files to your personal repository with changelog notes.
+
+===First Prototype: Roll-a-Ball===
+
+- Basic Roll-a-Ball Unity3d tutorial project.
+
+- https://unity3d.com/learn/tutorials/s/roll-ball-tutorial
+    - Envrionment and Player
+        - Setting up the Game
+            + Make the Project
+            - Create a new project with the name "Roll-a-Ball".
+            - Save the project to a project folder location.
+            - Create the project with the default 3D project settings.
+            - Save the scene with the name "MiniGame" to the Assets directory under a new directory named "_scenes".
+
+            + Add the Floor
+            - Add a plane game object to the scene and name it "ground".
+            - In the inspector, put the plane at the origin "(0, 0, 0)".
+            - Add some color. Create a new folder under Assets named "_materials" and create a new material named "Background".
+            - Select the new material, and under Main Maps in the inspector view, change the Albido property to a color of your choice.
+            - Change the plane's material to Background.
+
+            + Add the Ball
+            - Add a sphere game object to the scene and name it "Player".
+            - Place it at the origin and move it up the y-axis so the player is not superimposed in the ground later on.
+
+            + Spruce it Up
+            - Adjust the angle of the directional light as desired to achieve an aesthetically pleasing shadow.
+            - Better yet, scrap the directional light and replace it with a nice spotlight and change the skybox to a starry night sky.
+            - The default skybox is ugly as sin and is featured in thousands of poorly made prototypes which will make your prototype appear poorly made by association.
+            
+
+.
