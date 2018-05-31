@@ -1,0 +1,25 @@
+Date:	05-31-2018
+Course:	04:547:415:C6
+Prof:	Bill Crosbie (bcrosbie@comminfo.rutgers.edu)
+Topic:	Game Design - Beginning and Finishing Roll-a-Ball
+
+===First Prototype: Roll-a-Ball===
+
+- Basic Roll-a-Ball Unity3d tutorial project.
+
+- https://unity3d.com/learn/tutorials/s/roll-ball-tutorial
+        - Moving the Player
+            + Adding Physics
+                - Thow a rigidbody component on the Player and make sure that gravity is enabled
+                - This ensures that the Player stays humble, grounded, and, most importantly, /rigid/.
+
+            + Empowering the Player with Directional Choice
+                - We have to create a script that takes player input and applies directional force to the player object accordingly.
+                - Let's make a script for this called "PlayerController" under a new "_scripts" directory under Assets.
+                - Why are you working so hard? The script is made for you:
+                    - SU18-Roll-a-ball\Assets\_scripts\PlayerController.cs
+                - Drag and drop the script onto your Player object.
+                    - Test it out and be astounded that a the default value of the script for player speed is 0.
+                    - We want our player to move. So adjust the value within the inspector to accomidate your Need for Speed™.
+                
+
