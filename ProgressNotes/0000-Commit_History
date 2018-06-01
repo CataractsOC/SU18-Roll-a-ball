@@ -1,0 +1,11 @@
+
+001 Nuke and Build
+//DESCRIPTION
+  Nuked the stock folders and made my own based off of my own Unity project. Don't take it personally.
+  https://farm9.static.flickr.com/8423/7670491262_04b0dc90ea_b.jpg
+
+002 Reimporting Scripts and Moving the Player
+//DESCRIPTION
+  Added script files from original commit back in to generate new meta files relative to the new project for each. Did this to reset the timeCreated and licenseType meta tags.
+  Completed the "Moving the Player" tutorial as detailed in SU18-Roll-a-ball/ProgressNotes/20180531_01-movingThePlayer.txt
+
