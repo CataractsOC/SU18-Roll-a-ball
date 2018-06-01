@@ -9,3 +9,7 @@
   Added script files from original commit back in to generate new meta files relative to the new project for each. Did this to reset the timeCreated and licenseType meta tags.
   Completed the "Moving the Player" tutorial as detailed in SU18-Roll-a-ball/ProgressNotes/20180531_01-movingThePlayer.txt
 
+003 Added camera tracking
+//DESCRIPTION
+  Opted to use a tracking camera rather than a dollying and panning camera for the sake of my motion sickness.
+  Completed the "Moving the Camera" tutorial as detailed in SU18-Roll-a-ball/ProgressNotes/20180531_02-movingTheCamera.txt
