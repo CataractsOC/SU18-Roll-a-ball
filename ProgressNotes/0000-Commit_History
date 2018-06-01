@@ -1,15 +1,19 @@
-
+commit 0ed995453731dacc4a3772b66853fdb33b95f8a5
 001 Nuke and Build
 //DESCRIPTION
   Nuked the stock folders and made my own based off of my own Unity project. Don't take it personally.
   https://farm9.static.flickr.com/8423/7670491262_04b0dc90ea_b.jpg
 
+commit 6325d70da15697229864d522d5e1d38d04d5f230
 002 Reimporting Scripts and Moving the Player
 //DESCRIPTION
   Added script files from original commit back in to generate new meta files relative to the new project for each. Did this to reset the timeCreated and licenseType meta tags.
   Completed the "Moving the Player" tutorial as detailed in SU18-Roll-a-ball/ProgressNotes/20180531_01-movingThePlayer.txt
 
+commit e55948509f47888c974bf9770c8f25a1d745c9c9
 003 Added camera tracking
 //DESCRIPTION
   Opted to use a tracking camera rather than a dollying and panning camera for the sake of my motion sickness.
   Completed the "Moving the Camera" tutorial as detailed in SU18-Roll-a-ball/ProgressNotes/20180531_02-movingTheCamera.txt
+
+.
