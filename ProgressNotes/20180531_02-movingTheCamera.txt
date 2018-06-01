@@ -1,0 +1,40 @@
+Date:		05-31-2018
+Course:		04:547:415:C6
+Prof:		Bill Crosbie (bcrosbie@comminfo.rutgers.edu)
+Topic:		Game Design - Beginning and Finishing Roll-a-Ball
+
+===First Prototype: Roll-a-Ball===
+
+- Basic Roll-a-Ball Unity3d tutorial project.
+
+- https://unity3d.com/learn/tutorials/s/roll-ball-tutorial
+    - Moving the Camera
+        + Third-Person Camera
+        - Tie the camera to the Player object for a third-person view style of camera.
+            - Move the camera up and tilt it down at a 45 degree angle so the Player is centered in the viewport (10 up on the y-axis and a 45 rotation downwards is fine for this).
+            - Now we need to tie tie the camera to the player sphere via a script named "CameraController" under the _scripts directory.
+            - Why are you working so hard? The script is made for you:
+                - SU18-Roll-a-ball\Assets\_scripts\CameraController.cs
+            - Drag and drop te camera script onto the main camera in the hierarchy.
+                - Under the camera controller script component in the inspector window, change the Player proerty to use the Player game object in the current scene.
+        + "I'm ready for my close up, Mr. GameDeville."
+        - Great; now the camera follows the player object.
+            - But the new angle makes the world and the player so tiny.
+            - Let's choke that wide angle lens for a nice action shot.
+                - Select the camera from the hierarchy, and change the FOV to 30 degrees.
+                - Test it out. Looks good. Feels good. Let's save the scene and commit to git.
+                - BUT WAIT. I'm terribly suceptible to motion sickness and this style of camera makes me want to vomit.
+                    - I still want to see the player object, but I only want the camera to point at the player, not follow it.
+                    - Luckily, there's a really simple method of doing this:
+                        *BEGINCODE*
+                        void Update() {
+                                // Rotate the camera every frame so it keeps looking at the target
+                                transform.LookAt(target); }
+                        *ENDCODE*
+            - For accessibility reasons, let's offer this as an alternative camera, and put this in a script named "TrackingCamera" under _scripts.
+            - We don't have an interface to switch between cameras for now, but let's develop using this camera type for my own stomach's sake.
+            - Let's remove the script component from the main camera and replace it with our new TrackingCamera script.
+                - So that the camera knows what exactly to look at, change the Target property in the inspector to use the Player object.
+            - Woah, much better on the eyes. The viewport now feels like a tangible vantage point rather than an etheral all-seeing-eye. Let's save and commit to git.
+
+.

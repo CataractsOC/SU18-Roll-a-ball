@@ -1,7 +1,7 @@
-Date:	05-31-2018
-Course:	04:547:415:C6
-Prof:	Bill Crosbie (bcrosbie@comminfo.rutgers.edu)
-Topic:	Game Design - Beginning and Finishing Roll-a-Ball
+Date:		05-31-2018
+Course:		04:547:415:C6
+Prof:		Bill Crosbie (bcrosbie@comminfo.rutgers.edu)
+Topic:		Game Design - Beginning and Finishing Roll-a-Ball
 
 ===First Prototype: Roll-a-Ball===
 

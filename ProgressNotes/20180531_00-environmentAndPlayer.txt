@@ -1,7 +1,7 @@
-Date:	05-31-2018
-Course:	04:547:415:C6
-Prof:	Bill Crosbie (bcrosbie@comminfo.rutgers.edu)
-Topic:	Game Design - Beginning and Finishing Roll-a-Ball
+Date:		05-31-2018
+Course:		04:547:415:C6
+Prof:		Bill Crosbie (bcrosbie@comminfo.rutgers.edu)
+Topic:		Game Design - Beginning and Finishing Roll-a-Ball
 
 ===GitHub Workflow===
 
@@ -44,6 +44,7 @@ Topic:	Game Design - Beginning and Finishing Roll-a-Ball
             - Adjust the angle of the directional light as desired to achieve an aesthetically pleasing shadow.
             - Better yet, scrap the directional light and replace it with a nice spotlight and change the skybox to a starry night sky.
             - The default skybox is ugly as sin and is featured in thousands of poorly made prototypes which will make your prototype appear poorly made by association.
+                - Add a Rendering > Skybox component to the scene. Pick something nice.
             
 
 .
