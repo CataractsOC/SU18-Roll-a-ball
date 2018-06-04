@@ -35,6 +35,8 @@ Topic:		Game Design - Beginning and Finishing Roll-a-Ball
             - We don't have an interface to switch between cameras for now, but let's develop using this camera type for my own stomach's sake.
             - Let's remove the script component from the main camera and replace it with our new TrackingCamera script.
                 - So that the camera knows what exactly to look at, change the Target property in the inspector to use the Player object.
-            - Woah, much better on the eyes. The viewport now feels like a tangible vantage point rather than an etheral all-seeing-eye. Let's save and commit to git.
+            - Woah, much better on the eyes. The viewport now feels like a tangible vantage point rather than an etheral all-seeing-eye.
+            - For more aesthetically pleasing reasons, let's add the tracking script to the spotlight as well to give the stage some sense of life for now.
+            - Let's save and commit to git.
 
 .

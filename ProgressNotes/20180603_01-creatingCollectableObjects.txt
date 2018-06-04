@@ -1,0 +1,10 @@
+Date:		06-03-2018
+Course:		04:547:415:C6
+Prof:		Bill Crosbie (bcrosbie@comminfo.rutgers.edu)
+Topic:		Game Design - Finishing Roll-a-Ball (Homework)
+
+===First Prototype: Roll-a-Ball===
+
+- Basic Roll-a-Ball Unity3d tutorial project.
+
+- https://unity3d.com/learn/tutorials/s/roll-ball-tutorial

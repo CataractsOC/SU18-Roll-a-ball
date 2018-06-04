@@ -1,0 +1,36 @@
+Date:		06-03-2018
+Course:		04:547:415:C6
+Prof:		Bill Crosbie (bcrosbie@comminfo.rutgers.edu)
+Topic:		Game Design - Finishing Roll-a-Ball (Homework)
+
+===First Prototype: Roll-a-Ball===
+
+- Basic Roll-a-Ball Unity3d tutorial project.
+
+- https://unity3d.com/learn/tutorials/s/roll-ball-tutorial
+    - Setting Up the Play Area
+        + Adding Walls
+            - This is great so far and all, but there's nothing preventing the player from falling off the plane into eternity, so let's put up some boundaries.
+            - Let's make a cube game object, rename it "wall," and resize it appropritely to match the width of our ground.
+            - Move it to the north border so the ground is only just superimposing into the wall.
+            - Now we have one wall, but I'm too lazy to make the other's manually, so we'll just duplicate it in the hierarchy and rotate the copies accordingly.
+            - We have a mess in the hierarchy now. Let's create an empty gameobject titled "walls_exterior and drag and drop our new walls into it.
+
+        + Rooms
+            - Now we have four walls, but that's not exciting. Let's make a maze of rooms for our collectables.
+            - Continue the same process for making walls and resize and position them to create a lovely maze, then group them under empty gameobjects accordingly.
+
+        + Everything Else + Sprucing It Up
+            - Jeez, that maze sure took a while.
+            - Let's make a material to color these walls and, while we're at it, let's make a new material to color the player object too.
+            - Woah, that's aesthetic. Let's change the spotlight color to match our new palette.
+            - Same with the skybox. The spatial mapping wireframe material is pretty cyberspace-y. 
+            - We can take this aesthetic further.
+                - Create a new render texture and have our tracking camera use it as a target texture.
+                - Create a plane under the play area and drag our render texture onto it.
+                - Make a new camera under pointing at our new plane and make it our main camera by changing the target displays for both our cameras.
+                - Nice. We can now see what the other camera is seeing. Pop open the render texture and crunch that resolution down to a DISGEUSTIN' 300x225 pixels.
+                - Flip on sRGB (Color RenderTexture) and change Filter Mode to Point. No filters. We want it RAW.
+            - Damn, that's ugly as sin. But it's the good kind of ugly. Let's save and commit to git.
+
+.
