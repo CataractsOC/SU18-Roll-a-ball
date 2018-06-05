@@ -32,4 +32,9 @@ commit 1a44db0645c129259390d582946ee4cb2faea03b
 //DESCRIPTION
 Completed "Displaying Score and Text" tutorial as detailed in SU18-Roll-a-ball\ProgressNotes\20180605_02-displayingScoreAndText.txt
 
+commit 612aa7935d1ca591102d80a850aa23e95a9e67e4
+007 Tweaked player movement and fonts
+//DESCRIPTION
+Changed the UI to use a terminal font and adjusted player speed to be more exciting.
+
 .
