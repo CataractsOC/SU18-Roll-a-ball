@@ -1,0 +1,43 @@
+Date:		06-05-2018
+Course:		04:547:415:C6
+Prof:		Bill Crosbie (bcrosbie@comminfo.rutgers.edu)
+Topic:		Game Design - Finishing Roll-a-Ball (Homework)
+
+===First Prototype: Roll-a-Ball===
+
+- Basic Roll-a-Ball Unity3d tutorial project.
+
+- https://unity3d.com/learn/tutorials/s/roll-ball-tutorial
+    - Creating Collectables
+        + Modifying the pickup prefab
+            - Let's make our pickups into interactable game elements.
+            - Pop open the pickup prefab in the inspector view and enable "is trigger" in the box collider component.
+            - Because Unity caches the collider information from any collidable object that does not have the rigidbody component, we should add the rigidbody component to the prefab as well to prevent eating memory.
+            - Since we don't want our pickups to fall through the floor, we should enable "Is Kinematic" in the rigidbody component. This makes it so that the rigidbody is only affected by transform rather than addforce.
+            - Pop open the tags dropdown in the inpsector view and create a new tag named "pickup"
+            - The code segment that will allow for picking up our pickups is already located in SU18-Roll-a-ball\Assets\_scripts\PlayerController.cs
+
+            *BEGINCODE*
+                void OnTriggerEnter(Collider other) 
+                {
+                    // ..and if the game object we intersect has the tag 'Pick Up' assigned to it..
+                    if (other.gameObject.CompareTag ("Pick Up"))
+                    {
+                    // Make the other game object (the pick up) inactive, to make it disappear
+                    other.gameObject.SetActive (false);
+
+                    // Add one to the score variable 'count'
+                    count = count + 1;
+
+                    // Run the 'SetCountText()' function (see below)
+                    SetCountText ();
+                    }
+                }
+            *ENDCODE*
+
+            - Change the string in *other.gameObject.CompareTag ("Pick Up")* to *other.gameObject.CompareTag ("pickup")* to match the tag we just created.
+            - Now Unity will check for collisions between our player object and objects with the tag "pickup", and remove the object's active state upon collision.
+            - Testing it out, we can see that our player object makes our pickups disappear when it rolls over them. Cool.
+            - Let's save and commit to git.
+
+.

@@ -22,4 +22,9 @@ commit ec98518a8df905ea6399da3c3506000eee0ae3cf
   Made some A E S T H E T I C changes.
   Completed the "Setting up the Play Area" tutorial as detailed in SU18-Roll-a-ball/ProgressNotes/20180603_00-settingUpThePlayArea.txt
 
+commit f4473557db1e0ba1eb66e2b774e1ee9ad6354b3f
+005 Creating Collectable Objects
+//DESCRIPTION
+Completed the "Creating Collectable Objects" tutorial as detailed in SU18-Roll-a-ball/ProgressNotes/20180605_00-creatingCollectableObjects.txt
+
 .
