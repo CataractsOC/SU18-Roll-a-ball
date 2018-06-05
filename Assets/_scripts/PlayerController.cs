@@ -69,13 +69,13 @@ public class PlayerController : MonoBehaviour {
 	void SetCountText()
 	{
 		// Update the text field of our 'countText' variable
-		countText.text = "Count: " + count.ToString ();
+		countText.text = "###datacubes_hacked//: " + count.ToString ();
 
-		// Check if our 'count' is equal to or exceeded 12
-		if (count >= 12) 
+		// Check if our 'count' is equal to or exceeded 18
+		if (count >= 18) 
 		{
 			// Set the text value of our 'winText'
-			winText.text = "You Win!";
+			winText.text = "Acid Burn sez leave b4 u r expunged";
 		}
 	}
 }

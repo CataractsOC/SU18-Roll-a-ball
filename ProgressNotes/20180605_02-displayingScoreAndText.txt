@@ -1,0 +1,38 @@
+Date:		06-05-2018
+Course:		04:547:415:C6
+Prof:		Bill Crosbie (bcrosbie@comminfo.rutgers.edu)
+Topic:		Game Design - Finishing Roll-a-Ball (Homework)
+
+===First Prototype: Roll-a-Ball===
+
+- Basic Roll-a-Ball Unity3d tutorial project.
+
+- https://unity3d.com/learn/tutorials/s/roll-ball-tutorial
+    - Displaying the Score and Text
+        + Adding a Coutner for Collectables
+            - Well, this is awkward. Looks like this was already done for us in SU18-Roll-a-ball\Assets\_scripts\PlayerController.cs
+
+        + Adding the UI
+            - Let's add a UI text element in the hierarchy, which adds the Event System and Canvas game objects which are required to use the UI text game ojbect.
+            - Rename the UI text element "Count Text" in the inspector, then change the color to white under the Text component to make it stand out.
+            - Move the text to the upper left corner by clicking on the box icon in the Rect Transform component, then holding alt and shift while clicking on the top left preset to reassign the object's anchor and pivot to the corner.
+            - To add some padding space, increase the X transform and decrease the Y transform.
+
+        + Scripting the Counter
+            - Again, the counter scripting has been done already in SU18-Roll-a-ball\Assets\_scripts\PlayerController.cs
+            - We need to make some changes to the premade playerController script to make it work with our project.
+            - In the setCountText() method, increase the comparison number in the if statement to match the number of our pickups:
+                - "if (count >= 12)" ==> "if (count >= 18)"
+                - "Count: " is pretty boring, so let's change it to "Datacubes Hacked: "
+            - Select the player object, then drag and drop our coutner text into the Count Text variable space under the playerController element in the inspector.
+            - Cool.
+
+        + Adding and Scripting the Win Text
+            - Create a new UI text element under the canvas element in the hierarchy and name it "Win Text" and change it's color to white in the inspector.
+            - Change its alignment under the Text component in the inspector to middle and center, then move the Y transform up a little out of the way of the player.
+            - Oops, looks like the scripting part was done already in SU18-Roll-a-ball\Assets\_scripts\PlayerController.cs
+            - We can still make it our own though. Change the win text in the script to "Acid Burn sez leave b4 u r expunged"
+            - Let's test it out to see that it's working.
+            - That's elite. Let's save and commit to git.
+
+.
