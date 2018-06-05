@@ -1,0 +1,24 @@
+Date:		06-03-2018
+Course:		04:547:415:C6
+Prof:		Bill Crosbie (bcrosbie@comminfo.rutgers.edu)
+Topic:		Game Design - Finishing Roll-a-Ball (Homework)
+
+===First Prototype: Roll-a-Ball===
+
+- Basic Roll-a-Ball Unity3d tutorial project.
+
+- https://unity3d.com/learn/tutorials/s/roll-ball-tutorial
+    - Creating Collectables
+        + Creating the prefab
+            - Let's make some pickups.
+            - Create an empty game object in the hierarchy called "pickups" to group all our pickup objects.
+            - Create a cube under pickups and set the rotation on each axis to 45.
+            - Now let's add the rotator script to the object by dragging and dropping the script onto our cube to give it some movement.
+            - Let's add some color as well. Create a new material for our pickup and drag and drop it onto our pickup.
+            - If in case we need to recreate the same object with the same attiributes later on, let's turn this pickup into a prefab.
+                - Create a new folder named "_prefabs" under Assets.
+                - Drag and drop the pickup we created into the _prefabs folder.
+                - Drag and drop the prefab multiple times into the scene and spread them around the maze.
+            - Looking good. Let's save and commit to git.
+
+.

@@ -21,5 +21,7 @@ Topic:		Game Design - Beginning and Finishing Roll-a-Ball
                 - Drag and drop the script onto your Player object.
                     - Test it out and be astounded that a the default value of the script for player speed is 0.
                     - We want our player to move. So adjust the value within the inspector to accomidate your Need for Speed™.
+
+.
                 
 
