@@ -16,4 +16,10 @@ commit e55948509f47888c974bf9770c8f25a1d745c9c9
   Opted to use a tracking camera rather than a dollying and panning camera for the sake of my motion sickness.
   Completed the "Moving the Camera" tutorial as detailed in SU18-Roll-a-ball/ProgressNotes/20180531_02-movingTheCamera.txt
 
+commit ec98518a8df905ea6399da3c3506000eee0ae3cf
+004 Added Walls and Other Things
+//DESCRIPTION
+  Made some A E S T H E T I C changes.
+  Completed the "Setting up the Play Area" tutorial as detailed in SU18-Roll-a-ball/ProgressNotes/20180603_00-settingUpThePlayArea.txt
+
 .
