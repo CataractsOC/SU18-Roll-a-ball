@@ -1,0 +1,23 @@
+Date:		06-05-2018
+Course:		04:547:415:C6
+Prof:		Bill Crosbie (bcrosbie@comminfo.rutgers.edu)
+Topic:		Game Design - Finishing Roll-a-Ball (Homework)
+
+===First Prototype: Roll-a-Ball===
+
+- Basic Roll-a-Ball Unity3d tutorial project.
+
+- https://unity3d.com/learn/tutorials/s/roll-ball-tutorial
+    - Building the Game
+        + Build Settings
+            - Save the scene.
+            - Go to File > Build Settings, or hit Ctrl + Shift + B
+            - Select the PC, Mac & Linux Standalone Player build target.
+            - Drag and drop the current scene into the Build Settings window.
+
+        + Building an Executable
+            - Click build, and in the new explorer window, create a new folder named "Builds"
+            - Name the build exe "BallRollersTurboEdition" and save.
+            - Woah, that was easy. Save and commit to git. We're done here.
+
+.
